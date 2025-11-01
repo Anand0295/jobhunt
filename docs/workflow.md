@@ -1,5 +1,6 @@
 # Workflow
 This document summarizes the end-to-end workflow and includes simple diagrams to explain the system.
+
 ## High-level Workflow
 1. Ingest job sources (boards, referrals, ATS portals)
 2. Parse job descriptions and extract key requirements
@@ -8,9 +9,9 @@ This document summarizes the end-to-end workflow and includes simple diagrams to
 5. Prepare and submit application via automation
 6. Track status, outcomes, and feedback
 7. Learn from outcomes to improve future applications
+
 ## Diagram: End-to-End Flow (Mermaid)
-```
-mermaid
+```mermaid
 flowchart LR
     A[Job Sources] --> B[Job Parser]
     B --> C[Matching Engine]
@@ -20,17 +21,18 @@ flowchart LR
     F --> G[Learning Loop]
     G --> C
 ```
+
 ## Diagram: System Architecture (Mermaid)
-Below is the system architecture diagram for jobhunt, generated using Mermaid syntax:
-```
-mermaid
+Architecture diagram below—shows decentralized, modular system flow as in the original design.
+
+```mermaid
 flowchart TB
     subgraph Client
         CLI[Typer CLI]
         UI[FastAPI UI]
     end
 
-    subgraph CoreServices
+    subgraph Core_Services
         Parser[JD Parser]
         Matcher[Semantic Matcher]
         Tailor[ATS Tailoring]
@@ -60,7 +62,7 @@ flowchart TB
     Parser -- prompts --> LLM
     Matcher -- embeddings --> LLM
 ```
+
 ## Step-by-step Summary
 - Discover jobs from configured sources
 - Extract requirements and normalize fields
-- Rank jobs by fit score and user preferences

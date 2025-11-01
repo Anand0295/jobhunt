@@ -11,18 +11,22 @@ This document summarizes the end-to-end workflow and includes simple diagrams to
 7. Learn from outcomes to improve future applications
 
 ## Diagram: End-to-End Flow (Mermaid)
+
+Below is the simple end-to-end workflow diagram for jobhunt, generated in Mermaid.
+
 ```mermaid
 flowchart LR
     A[Job Sources] --> B[Job Parser]
     B --> C[Matching Engine]
-    C --> D[Tailoring]
+    C --> D[ATS Tailoring]
     D --> E[Application Automator]
     E --> F[Tracker]
     F --> G[Learning Loop]
-    G --> C
+    G -- feedback --> C
 ```
 
 ## Diagram: System Architecture (Mermaid)
+
 Architecture diagram below—shows decentralized, modular system flow as in the original design.
 
 ```mermaid
@@ -31,7 +35,6 @@ flowchart TB
         CLI[Typer CLI]
         UI[FastAPI UI]
     end
-
     subgraph Core_Services
         Parser[JD Parser]
         Matcher[Semantic Matcher]
@@ -39,30 +42,22 @@ flowchart TB
         Automator[Playwright Automator]
         Tracker[State DB]
     end
-
     subgraph Data
         DB[(SQLite/PG)]
         Vstore[(FAISS/Chroma)]
         Files[[Resumes/Artifacts]]
     end
-
     LLM[LLM Provider(s)]
-
+    
     CLI --> Parser
     UI --> Parser
     Parser --> Matcher
     Matcher --> Tailor
     Tailor --> Automator
     Automator --> Tracker
-
     Tracker --> DB
     Matcher --> Vstore
     Tailor --> Files
-
     Parser -- prompts --> LLM
     Matcher -- embeddings --> LLM
 ```
-
-## Step-by-step Summary
-- Discover jobs from configured sources
-- Extract requirements and normalize fields

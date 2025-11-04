@@ -1,0 +1,209 @@
+{
+  "jobs": [
+    {
+      "id": "JOB001",
+      "title": "Senior Software Engineer - Full Stack",
+      "company": "TechVision AI",
+      "location": "San Francisco, CA",
+      "job_type": "Full-time",
+      "salary_range": {
+        "min": 180000,
+        "max": 240000,
+        "currency": "USD"
+      },
+      "description": "We are seeking a Senior Software Engineer to lead the development of our AI-powered platform. You will work with a talented team to build scalable, high-performance systems that serve millions of users. This role offers the opportunity to shape the technical direction of our product and mentor junior engineers.",
+      "requirements": [
+        "7+ years of software development experience",
+        "Expertise in Python, JavaScript/TypeScript, and at least one systems language",
+        "Strong background in distributed systems and cloud architecture (AWS, GCP, or Azure)",
+        "Experience with microservices architecture and containerization (Docker, Kubernetes)",
+        "Excellent problem-solving skills and ability to work in a fast-paced environment",
+        "BS/MS in Computer Science or equivalent experience"
+      ],
+      "nice_to_have": [
+        "Experience with machine learning and AI technologies",
+        "Open source contributions",
+        "Experience leading engineering teams",
+        "Knowledge of blockchain technologies"
+      ],
+      "benefits": [
+        "Competitive salary and equity",
+        "Comprehensive health coverage (medical, dental, vision)",
+        "401(k) matching",
+        "Unlimited PTO",
+        "Remote-first work environment",
+        "Professional development budget",
+        "Stock options",
+        "Parental leave"
+      ],
+      "posted_date": "2025-11-01",
+      "application_deadline": "2025-12-15",
+      "company_website": "https://techvision-ai.com",
+      "application_url": "https://careers.techvision-ai.com/jobs/001"
+    },
+    {
+      "id": "JOB002",
+      "title": "ML/AI Engineer",
+      "company": "DataStream Analytics",
+      "location": "Remote",
+      "job_type": "Full-time",
+      "salary_range": {
+        "min": 160000,
+        "max": 220000,
+        "currency": "USD"
+      },
+      "description": "Join our Machine Learning team to build and deploy cutting-edge AI models for real-time data analytics. You'll work on problems ranging from predictive modeling to natural language processing. Our team is collaborative and values innovation. We're looking for someone who can bridge the gap between research and production.",
+      "requirements": [
+        "MS/PhD in Computer Science, Statistics, Mathematics, or related field (or equivalent industry experience)",
+        "Strong background in machine learning algorithms and deep learning",
+        "Proficiency in Python and experience with ML frameworks (TensorFlow, PyTorch, scikit-learn)",
+        "Experience with data processing and big data technologies (Spark, Hadoop)",
+        "Understanding of MLOps and model deployment practices",
+        "Strong communication skills and ability to explain complex concepts"
+      ],
+      "nice_to_have": [
+        "Experience with NLP and computer vision",
+        "Familiarity with cloud ML services (SageMaker, Vertex AI)",
+        "Contributions to ML research papers or open source projects",
+        "Experience with time series forecasting"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Remote work flexibility",
+        "Health, dental, and vision insurance",
+        "Professional development allowance",
+        "Mental health support",
+        "Equipment stipend for home office",
+        "Flexible working hours"
+      ],
+      "posted_date": "2025-11-02",
+      "application_deadline": "2025-12-20",
+      "company_website": "https://datastream-analytics.com",
+      "application_url": "https://jobs.datastream-analytics.com/ml-engineer"
+    },
+    {
+      "id": "JOB003",
+      "title": "DevOps Engineer",
+      "company": "CloudCore Systems",
+      "location": "Seattle, WA",
+      "job_type": "Full-time",
+      "salary_range": {
+        "min": 140000,
+        "max": 190000,
+        "currency": "USD"
+      },
+      "description": "We're looking for a DevOps Engineer to build and maintain our infrastructure. You'll work on CI/CD pipelines, infrastructure automation, and cloud architecture. This role is critical to our ability to deliver features rapidly while maintaining reliability and security.",
+      "requirements": [
+        "5+ years of DevOps or infrastructure engineering experience",
+        "Strong expertise with Kubernetes and container orchestration",
+        "Experience with Infrastructure as Code (Terraform, CloudFormation)",
+        "Deep knowledge of AWS services",
+        "Scripting skills in Python, Bash, or Go",
+        "Experience with CI/CD tools (Jenkins, GitLab CI, GitHub Actions)",
+        "Understanding of networking, security, and database administration"
+      ],
+      "nice_to_have": [
+        "Kubernetes certification (CKA)",
+        "Experience with monitoring and logging tools (Prometheus, ELK)",
+        "Terraform or IaC certification",
+        "Experience with multi-cloud deployments"
+      ],
+      "benefits": [
+        "Competitive compensation",
+        "Stock options",
+        "Comprehensive health benefits",
+        "Education and training budget",
+        "Home office setup allowance",
+        "Generous PTO policy",
+        "Workplace wellness program"
+      ],
+      "posted_date": "2025-11-03",
+      "application_deadline": "2025-12-18",
+      "company_website": "https://cloudcore-systems.com",
+      "application_url": "https://careers.cloudcore-systems.com/devops"
+    },
+    {
+      "id": "JOB004",
+      "title": "Frontend Engineer",
+      "company": "DesignFlow Labs",
+      "location": "New York, NY",
+      "job_type": "Full-time",
+      "salary_range": {
+        "min": 130000,
+        "max": 180000,
+        "currency": "USD"
+      },
+      "description": "Join our design-forward team to build beautiful, responsive web applications. You'll collaborate with designers and product managers to create delightful user experiences. We use modern web technologies and are committed to writing clean, maintainable code.",
+      "requirements": [
+        "3+ years of frontend development experience",
+        "Expert-level knowledge of React and modern JavaScript/TypeScript",
+        "Strong understanding of HTML, CSS, and responsive design",
+        "Experience with state management solutions (Redux, MobX, Context API)",
+        "Familiarity with testing frameworks and practices",
+        "Knowledge of accessibility (WCAG) and web performance optimization",
+        "Experience with version control (Git) and collaborative development"
+      ],
+      "nice_to_have": [
+        "Experience with Next.js or other React frameworks",
+        "Knowledge of CSS-in-JS libraries",
+        "Experience with Figma or design tools",
+        "Contributions to open source projects"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Health insurance",
+        "401(k) with matching",
+        "Flexible work hours",
+        "Home office stipend",
+        "Annual learning budget",
+        "Paid time off (25 days)"
+      ],
+      "posted_date": "2025-11-04",
+      "application_deadline": "2025-12-22",
+      "company_website": "https://designflow-labs.com",
+      "application_url": "https://apply.designflow-labs.com/frontend"
+    },
+    {
+      "id": "JOB005",
+      "title": "Product Manager",
+      "company": "InnovateCo",
+      "location": "Boston, MA",
+      "job_type": "Full-time",
+      "salary_range": {
+        "min": 150000,
+        "max": 210000,
+        "currency": "USD"
+      },
+      "description": "We're seeking an experienced Product Manager to drive the vision and strategy of our core product. You'll work across engineering, design, and marketing to define roadmaps and deliver value to our users. This role offers high visibility and the opportunity to make a significant impact on our product direction.",
+      "requirements": [
+        "5+ years of product management experience",
+        "Demonstrated success in shipping products or features",
+        "Strong data analysis and decision-making skills",
+        "Excellent communication and cross-functional collaboration abilities",
+        "Experience with technical products and understanding of engineering constraints",
+        "User research and customer empathy",
+        "Experience with product analytics tools"
+      ],
+      "nice_to_have": [
+        "Background in B2B SaaS",
+        "Experience with marketplace or network effects products",
+        "Knowledge of AI/ML applications",
+        "MBA or equivalent advanced degree"
+      ],
+      "benefits": [
+        "Competitive salary and bonus",
+        "Stock options",
+        "Comprehensive health coverage",
+        "401(k) matching",
+        "Flexible remote work",
+        "Professional development",
+        "Team offsites",
+        "Parental leave"
+      ],
+      "posted_date": "2025-11-04",
+      "application_deadline": "2025-12-25",
+      "company_website": "https://innovate-co.com",
+      "application_url": "https://careers.innovate-co.com/pm"
+    }
+  ]
+}

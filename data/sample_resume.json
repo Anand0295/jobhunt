@@ -1,0 +1,126 @@
+{
+  "personal_info": {
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "phone": "+1-555-0123",
+    "location": "San Francisco, CA",
+    "linkedin": "linkedin.com/in/sarahjohnson",
+    "github": "github.com/sarahjdev",
+    "portfolio": "sarahjohnson.dev"
+  },
+  "summary": "Results-driven Senior Software Engineer with 6+ years of experience in full-stack development, specializing in Python, JavaScript, and cloud technologies. Proven track record of leading teams, architecting scalable solutions, and delivering high-quality software products. Passionate about AI/ML applications and automation.",
+  "skills": {
+    "programming_languages": ["Python", "JavaScript", "TypeScript", "Java", "SQL", "Go"],
+    "frameworks": ["React", "Node.js", "Django", "Flask", "FastAPI", "Express.js"],
+    "databases": ["PostgreSQL", "MongoDB", "Redis", "MySQL", "DynamoDB"],
+    "cloud_platforms": ["AWS", "Google Cloud Platform", "Azure"],
+    "tools": ["Docker", "Kubernetes", "Git", "Jenkins", "GitHub Actions", "Terraform"],
+    "methodologies": ["Agile", "Scrum", "CI/CD", "TDD", "Microservices"]
+  },
+  "experience": [
+    {
+      "company": "TechCorp Solutions",
+      "position": "Senior Software Engineer",
+      "location": "San Francisco, CA",
+      "start_date": "2021-03",
+      "end_date": "Present",
+      "responsibilities": [
+        "Led a team of 5 engineers in developing a cloud-based analytics platform serving 10,000+ users",
+        "Architected and implemented microservices using Python, FastAPI, and AWS Lambda, reducing response times by 40%",
+        "Designed and deployed CI/CD pipelines using GitHub Actions and Terraform, decreasing deployment time by 60%",
+        "Mentored junior developers and conducted code reviews to maintain high code quality standards",
+        "Collaborated with product managers and stakeholders to define technical requirements and roadmaps"
+      ],
+      "achievements": [
+        "Reduced infrastructure costs by 30% through optimization of AWS resources",
+        "Improved system reliability from 99.5% to 99.9% uptime"
+      ]
+    },
+    {
+      "company": "DataDrive Inc",
+      "position": "Software Engineer",
+      "location": "Mountain View, CA",
+      "start_date": "2019-01",
+      "end_date": "2021-02",
+      "responsibilities": [
+        "Developed RESTful APIs using Python Django and Node.js for data processing applications",
+        "Built responsive web applications with React and TypeScript, serving 50,000+ daily users",
+        "Implemented automated testing frameworks, increasing code coverage from 45% to 85%",
+        "Collaborated with data scientists to integrate machine learning models into production systems",
+        "Participated in on-call rotations and resolved critical production incidents"
+      ],
+      "achievements": [
+        "Reduced API response time by 50% through query optimization and caching strategies",
+        "Received Employee of the Quarter award for outstanding contributions"
+      ]
+    },
+    {
+      "company": "StartupXYZ",
+      "position": "Junior Software Developer",
+      "location": "Palo Alto, CA",
+      "start_date": "2018-06",
+      "end_date": "2018-12",
+      "responsibilities": [
+        "Developed features for mobile-responsive web applications using JavaScript and React",
+        "Wrote unit and integration tests using Jest and React Testing Library",
+        "Participated in agile ceremonies including sprint planning, daily standups, and retrospectives",
+        "Fixed bugs and implemented enhancements based on user feedback"
+      ],
+      "achievements": [
+        "Successfully delivered 3 major features ahead of schedule"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Stanford University",
+      "degree": "Bachelor of Science in Computer Science",
+      "location": "Stanford, CA",
+      "graduation_date": "2018-05",
+      "gpa": "3.8/4.0",
+      "relevant_coursework": [
+        "Data Structures and Algorithms",
+        "Machine Learning",
+        "Database Systems",
+        "Software Engineering",
+        "Distributed Systems"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "issuer": "Amazon Web Services",
+      "date": "2022-08"
+    },
+    {
+      "name": "Professional Scrum Master I (PSM I)",
+      "issuer": "Scrum.org",
+      "date": "2021-11"
+    }
+  ],
+  "projects": [
+    {
+      "name": "OpenSource Contributor - React Data Grid",
+      "description": "Active contributor to popular open-source data grid library with 15k+ GitHub stars",
+      "technologies": ["React", "TypeScript", "Jest"],
+      "url": "github.com/sarahjdev/react-data-grid"
+    },
+    {
+      "name": "Personal Portfolio & Blog",
+      "description": "Built personal website showcasing projects and technical blog posts on software engineering topics",
+      "technologies": ["Next.js", "React", "Tailwind CSS", "MDX"],
+      "url": "sarahjohnson.dev"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "proficiency": "Professional Working Proficiency"
+    }
+  ]
+}
